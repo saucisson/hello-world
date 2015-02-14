@@ -6,7 +6,7 @@ int
 main ()
 {
   std::stringstream program;
-  std::ifstream input ("program.c");
+  std::ifstream input ("/usr/share/hello-world/program.c");
   program << input.rdbuf();
   input.close ();
   std::ofstream output ("hello.c");
