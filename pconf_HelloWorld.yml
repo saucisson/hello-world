@@ -25,7 +25,11 @@ Packages:
 
     Build:
       Dependencies:
-        gcc: "*"
+        g++:
+                Archlinux:
+                        All: gcc
+                Centos:
+                        All: gcc-c++                
 
       Commands:
         - cd src/
