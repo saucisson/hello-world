@@ -32,7 +32,6 @@ Packages:
                         All: gcc-c++                
 
       Commands:
-        - cd src/
         - g++ main.cc -o hello-world
         - cd ..
     Runtime:
